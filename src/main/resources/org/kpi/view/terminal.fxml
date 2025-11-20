@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.kpi.controller.TerminalController"
+            stylesheets="@styles.css"
+            prefHeight="600.0" prefWidth="900.0">
+
+    <top>
+        <MenuBar fx:id="mainMenuBar"/>
+    </top>
+
+    <center>
+        <TabPane fx:id="tabPane" tabClosingPolicy="ALL_TABS" style="-fx-padding: 5;" />
+    </center>
+
+</BorderPane>
